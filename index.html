@@ -1,0 +1,251 @@
+<script type="text/javascript">
+	atOptions = {
+		'key' : '7842d4f4ca9069cdbfecfad91683c3d6',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/7842d4f4ca9069cdbfecfad91683c3d6/invoke.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eid-ul-Adha Mubarak</title>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cairo&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Cairo', sans-serif;
+      background-color: #000;
+      color: white;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      padding: 2rem;
+      background: rgba(0, 0, 0, 0.75);
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+      position: relative;
+      z-index: 10;
+    }
+
+    .eid-image {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    }
+
+    .message {
+      font-size: 1.1rem;
+      color: #f0f0f0;
+      margin: 1.5rem 0;
+      font-weight: 400;
+      line-height: 1.6;
+      padding: 0 1rem;
+    }
+
+    .greeting {
+      font-family: 'Amiri', serif;
+      font-size: 2rem;
+      color: #00ffc3;
+      animation: glow 2s ease-in-out infinite alternate;
+      margin-bottom: 1rem;
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #00ffc3; }
+      to { text-shadow: 0 0 20px #00ffc3, 0 0 30px #00ffc3; }
+    }
+
+    input[type="text"] {
+      padding: 0.6rem;
+      width: 80%;
+      max-width: 300px;
+      font-size: 1rem;
+      border-radius: 10px;
+      border: none;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    button {
+      padding: 0.6rem 1.2rem;
+      font-size: 1rem;
+      border: none;
+      background: #00c896;
+      color: white;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #009e74;
+    }
+
+    .link-output {
+      margin-top: 1rem;
+      font-size: 0.95rem;
+      word-wrap: break-word;
+      color: #90f4ff;
+    }
+
+    .copy-btn, .whatsapp-btn {
+      margin-top: 0.5rem;
+      background-color: #25d366;
+      border: none;
+      color: white;
+      padding: 0.4rem 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+    }
+
+    .copy-btn:hover, .whatsapp-btn:hover {
+      background-color: #1da851;
+    }
+
+    .whatsapp-icon {
+      width: 20px;
+      height: 20px;
+    }
+
+    .firework {
+      position: fixed;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #fff;
+      animation: explode 1.5s ease-out forwards;
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    @keyframes explode {
+      0% {
+        transform: translate(0, 0) scale(0.2);
+        opacity: 1;
+      }
+      100% {
+        transform: translate(var(--x), var(--y)) scale(1.2);
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <script>
+    function createFireworkBurst() {
+      const count = 10 + Math.floor(Math.random() * 10);
+      for (let i = 0; i < count; i++) {
+        const firework = document.createElement('div');
+        firework.className = 'firework';
+        const angle = Math.random() * 2 * Math.PI;
+        const radius = Math.random() * 150;
+        const x = Math.cos(angle) * radius;
+        const y = Math.sin(angle) * radius;
+        firework.style.setProperty('--x', `${x}px`);
+        firework.style.setProperty('--y', `${y}px`);
+        firework.style.left = `${Math.random() * window.innerWidth}px`;
+        firework.style.top = `${Math.random() * window.innerHeight}px`;
+        firework.style.background = `hsl(${Math.random() * 360}, 100%, 70%)`;
+        document.body.appendChild(firework);
+        setTimeout(() => firework.remove(), 1500);
+      }
+    }
+    setInterval(createFireworkBurst, 1200);
+  </script>
+
+  <div class="container">
+    <img src="iduladha.gif" alt="Eid-ul-Adha" class="eid-image">
+
+    <div class="message">
+      अल्लाह की रहमतें आपको सुकून, सफलता और खुशियां दें। इस खास दिन पर आपकी हर दुआ कबूल हो—ईद मुबारक!<br>
+      यह ईद आपको अपनों के और करीब लाए और जीवन को मुस्कान दे।<br>
+      प्रेम और शांति से भरी एक समृद्ध ईद की शुभकामनाएं।
+    </div>
+
+    <div class="greeting" id="main-greeting">🌙 Eid-ul-Adha Mubarak 🌙</div>
+
+    <div id="wish-box">
+      <input type="text" id="nameInput" placeholder="Enter Your Name" />
+      <br>
+      <button onclick="generateLink()">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" class="whatsapp-icon" alt="WhatsApp" />
+        Generate & Share via WhatsApp
+      </button>
+      <div class="link-output" id="generatedLink" style="display:none;"></div>
+      <button class="copy-btn" id="copyButton" style="display:none;" onclick="copyToClipboard()">Copy Link</button>
+      <a class="whatsapp-btn" id="whatsappButton" href="#" target="_blank" style="display:none;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" class="whatsapp-icon" alt="WhatsApp" />
+        Send via WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <script>
+    function getQueryParam(param) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(param);
+    }
+
+    function generateLink() {
+      const name = document.getElementById('nameInput').value.trim();
+      if (name) {
+        const baseUrl = window.location.href.split('?')[0];
+        const link = `${baseUrl}?name=${encodeURIComponent(name)}`;
+
+        document.getElementById('main-greeting').innerHTML = `🌙 Eid-ul-Adha Mubarak from <strong>${name}</strong> 🌙`;
+        document.getElementById('generatedLink').innerHTML = `🎉 Your Wish Link: <br><a href="${link}" target="_blank" style="color:#00ffd5;">${link}</a>`;
+        document.getElementById('generatedLink').style.display = 'block';
+        document.getElementById('copyButton').style.display = 'inline-block';
+        document.getElementById('copyButton').setAttribute('data-link', link);
+
+        const message = `${name} की ओर से ईद की हार्दिक शुभकामनाएँ! इस विशेष संदेश को देखने के लिए लिंक पर क्लिक करें: ${link}`;
+        const whatsappLink = `https://wa.me/?text=${encodeURIComponent(message)}`;
+        const whatsappBtn = document.getElementById('whatsappButton');
+        whatsappBtn.href = whatsappLink;
+        whatsappBtn.style.display = 'inline-flex';
+      }
+    }
+
+    function copyToClipboard() {
+      const link = document.getElementById('copyButton').getAttribute('data-link');
+      navigator.clipboard.writeText(link).then(() => {
+        alert('Link copied to clipboard!');
+      });
+    }
+
+    window.onload = function () {
+      const senderName = getQueryParam('name');
+      if (senderName) {
+        const greeting = document.getElementById('main-greeting');
+        greeting.innerHTML = `🌙 Eid-ul-Adha Mubarak from <strong>${senderName}</strong> 🌙`;
+        greeting.style.animation = 'glow 2s ease-in-out infinite alternate';
+      }
+    };
+  </script>
+</body>
+</html>
+<script type="text/javascript">
+	atOptions = {
+		'key' : '7842d4f4ca9069cdbfecfad91683c3d6',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/7842d4f4ca9069cdbfecfad91683c3d6/invoke.js"></script>
